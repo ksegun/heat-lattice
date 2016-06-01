@@ -140,8 +140,7 @@ resources:
       router_id:
         get_resource: extrouter
       subnet_id:
-        get_resource:
-          fixed_subnet
+        get_resource: fixed_subnet
 
   ######################################################################
   #
